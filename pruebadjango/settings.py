@@ -77,7 +77,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'djongo',
-	'USER': 'postgres',
+	'USER': 'djongo',
 	'HOST': 'db',
 	'PORT': 27017,
     }
