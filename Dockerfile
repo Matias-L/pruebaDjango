@@ -1,5 +1,5 @@
 # Pull base image
-FROM python:latest-alpine
+FROM python:3-alpine
 
 # Set environment varibles
 #ENV PYTHONDONTWRITEBYTECODE 1
