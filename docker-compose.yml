@@ -2,7 +2,9 @@ version: '3'
 
 services:
   db:
-    image: postgres
+    image: mongo
+    ports:
+      - "27017:27017"
   web:
     image: matiaslionel/pruebadjango
     command: python manage.py runserver 0.0.0.0:8000
