@@ -75,12 +75,11 @@ WSGI_APPLICATION = 'pruebadjango.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'djongo',
-	'USER': 'djongo',
-	'PASSWORD': 'contra',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+	'USER': 'postgres',
 	'HOST': 'db',
-	'PORT': 27017,
+	'PORT': 5432,
     }
 }
 
