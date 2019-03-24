@@ -11,5 +11,5 @@ WORKDIR /code
 
 # Install dependencies
 COPY requirements.txt /code/
-RUN pip install -r requirements.txt && mkdir projecto apps
+RUN pip install -r requirements.txt && mkdir /projecto /apps
 COPY . /code/
