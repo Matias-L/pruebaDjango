@@ -6,10 +6,10 @@ FROM python:3
 ENV PYTHONUNBUFFERED 1
 
 # Set work directory
-RUN mkdir /code
+RUN mkdir code code/projecto code/aplicaciones
 WORKDIR /code
 
 # Install dependencies
 COPY requirements.txt /code/
-RUN pip install -r requirements.txt && mkdir /projecto /apps
+RUN pip install -r requirements.txt
 COPY . /code/
