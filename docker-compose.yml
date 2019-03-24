@@ -5,7 +5,7 @@ services:
     image: postgres
   web:
     image: matiaslionel/pruebadjango
-    command: python /projecto/manage.py runserver 0.0.0.0:8000
+    command: python /code/projecto/manage.py runserver 0.0.0.0:8000
     volumes:
       - ./volumen:/code
     ports:
