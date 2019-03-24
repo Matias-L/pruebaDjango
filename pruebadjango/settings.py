@@ -78,6 +78,7 @@ DATABASES = {
         'ENGINE': 'djongo',
         'NAME': 'djongo',
 	'USER': 'djongo',
+	'PASSWORD': 'contra',
 	'HOST': 'db',
 	'PORT': 27017,
     }
