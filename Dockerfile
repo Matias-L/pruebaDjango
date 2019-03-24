@@ -6,7 +6,7 @@ FROM python:3
 ENV PYTHONUNBUFFERED 1
 
 # Set work directory
-RUN mkdir code code/projecto code/aplicaciones
+RUN mkdir code code/projecto code/projecto/calculadora
 WORKDIR /code
 
 # Install dependencies
