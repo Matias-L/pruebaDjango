@@ -11,5 +11,6 @@ WORKDIR /code
 
 # Install dependencies
 COPY requirements.txt /code/
-RUN pip install -r requirements.txt && django-admin startproject projectodjango ./projecto
+RUN pip install -r requirements.txt 
+#/&& django-admin startproject projectodjango ./projecto
 COPY . /code/
